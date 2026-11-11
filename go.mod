@@ -1,6 +1,6 @@
 module github.com/lima-vm/lima
 
-go 1.17
+go 1.21
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.2
@@ -13,7 +13,7 @@ require (
 	github.com/diskfs/go-diskfs v1.2.0
 	github.com/docker/go-units v0.4.0
 	github.com/elastic/go-libaudit/v2 v2.2.0
-	github.com/google/go-cmp v0.5.6
+	github.com/google/go-cmp v0.7.0
 	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/lima-vm/sshocker v0.2.2
@@ -54,7 +54,6 @@ require (
 	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
 	golang.org/x/term v0.0.0-20210503060354-a79de5458b56 // indirect
 	golang.org/x/text v0.3.6 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c // indirect
 	google.golang.org/grpc v1.39.0-dev.0.20210518002758-2713b77e8526 // indirect
 	google.golang.org/protobuf v1.27.1 // indirect
