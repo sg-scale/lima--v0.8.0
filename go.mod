@@ -18,7 +18,7 @@ require (
 	github.com/hashicorp/go-multierror v1.1.1
 	github.com/lima-vm/sshocker v0.2.2
 	github.com/mattn/go-isatty v0.0.14
-	github.com/mattn/go-shellwords v1.0.12
+	github.com/mattn/go-shellwords v1.0.16
 	github.com/miekg/dns v1.1.43
 	github.com/norouter/norouter v0.6.4
 	github.com/nxadm/tail v1.4.8
