@@ -1,6 +1,6 @@
 module github.com/lima-vm/lima
 
-go 1.17
+go 1.21
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.2
@@ -12,7 +12,7 @@ require (
 	github.com/digitalocean/go-qemu v0.0.0-20210326154740-ac9e0b687001
 	github.com/diskfs/go-diskfs v1.2.0
 	github.com/docker/go-units v0.4.0
-	github.com/elastic/go-libaudit/v2 v2.2.0
+	github.com/elastic/go-libaudit/v2 v2.6.2
 	github.com/google/go-cmp v0.5.6
 	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/go-multierror v1.1.1
@@ -27,7 +27,7 @@ require (
 	github.com/spf13/cobra v1.2.1
 	github.com/xorcare/pointer v1.1.0
 	github.com/yalue/native_endian v1.0.2
-	golang.org/x/sys v0.0.0-20210818153620-00dd8d7831e7
+	golang.org/x/sys v0.11.0
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.0.3
 )
