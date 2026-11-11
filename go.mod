@@ -1,6 +1,6 @@
 module github.com/lima-vm/lima
 
-go 1.17
+go 1.25.0
 
 require (
 	github.com/AlecAivazis/survey/v2 v2.3.2
@@ -16,18 +16,18 @@ require (
 	github.com/google/go-cmp v0.5.6
 	github.com/gorilla/mux v1.8.0
 	github.com/hashicorp/go-multierror v1.1.1
-	github.com/lima-vm/sshocker v0.2.2
+	github.com/lima-vm/sshocker v0.3.11
 	github.com/mattn/go-isatty v0.0.14
 	github.com/mattn/go-shellwords v1.0.12
 	github.com/miekg/dns v1.1.43
 	github.com/norouter/norouter v0.6.4
 	github.com/nxadm/tail v1.4.8
 	github.com/opencontainers/go-digest v1.0.0
-	github.com/sirupsen/logrus v1.8.1
+	github.com/sirupsen/logrus v1.9.4
 	github.com/spf13/cobra v1.2.1
 	github.com/xorcare/pointer v1.1.0
 	github.com/yalue/native_endian v1.0.2
-	golang.org/x/sys v0.0.0-20210818153620-00dd8d7831e7
+	golang.org/x/sys v0.47.0
 	gopkg.in/yaml.v2 v2.4.0
 	gotest.tools/v3 v3.0.3
 )
@@ -46,14 +46,14 @@ require (
 	github.com/mattn/go-runewidth v0.0.12 // indirect
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/pkg/sftp v1.13.3 // indirect
+	github.com/pkg/sftp v1.13.11 // indirect
 	github.com/rivo/uniseg v0.2.0 // indirect
 	github.com/spf13/pflag v1.0.5 // indirect
-	golang.org/x/crypto v0.0.0-20210817164053-32db794688a5 // indirect
-	golang.org/x/net v0.0.0-20210813160813-60bc85c4be6d // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
-	golang.org/x/term v0.0.0-20210503060354-a79de5458b56 // indirect
-	golang.org/x/text v0.3.6 // indirect
+	golang.org/x/crypto v0.54.0 // indirect
+	golang.org/x/net v0.56.0 // indirect
+	golang.org/x/sync v0.22.0 // indirect
+	golang.org/x/term v0.45.0 // indirect
+	golang.org/x/text v0.40.0 // indirect
 	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
 	google.golang.org/genproto v0.0.0-20210602131652-f16073e35f0c // indirect
 	google.golang.org/grpc v1.39.0-dev.0.20210518002758-2713b77e8526 // indirect
